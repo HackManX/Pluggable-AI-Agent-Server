@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", /* Modern, stable ECMAScript target */
+    "module": "NodeNext", /* Use the modern Node.js module system */
+    "moduleResolution": "NodeNext", /* How to find modules */
+    "outDir": "./dist", /* Where to put the compiled JavaScript */
+    "rootDir": "./src", /* Where your source code is */
+    
+    "esModuleInterop": true, /* Allows imports from CommonJS modules */
+    "forceConsistentCasingInFileNames": true, /* Prevents case-related bugs */
+    
+    /* Strictness flags - good for catching bugs */
+    "strict": true, 
+    "noImplicitAny": true, 
+    "skipLibCheck": true /* Skip type checking of declaration files */
+  },
+  "include": ["src/**/*"] /* Only compile files in the src folder */
+}
